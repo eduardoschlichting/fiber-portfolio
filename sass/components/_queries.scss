@@ -33,7 +33,7 @@
             flex-direction: row-reverse;
             justify-content: center;
             align-items: center;
-            padding:  0 150px;
+            
 
             .header-hero {
                 max-width: 700px;
@@ -68,7 +68,6 @@
     .why-fiber-container {
         padding: 3.5em 150px;
         
-
         .why-wrapper {
 
             .why-items {
@@ -82,6 +81,34 @@
                     img {
                         max-width: 35px;
                     }
+                }
+            }
+        }
+    }
+}
+
+// Diversify Card
+
+@media screen and (min-width: 1280px) {
+    .diversify-container {
+        padding: 0 150px;
+        .diversify-wrapper {
+            .diversify-content {
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-between;
+                gap: 3em;
+                
+                &_copy {
+                    max-width: 450px;
+                    
+                    button {
+                        align-self: flex-start;
+                    }
+                }
+
+                &_img {
+                    max-width: 600px;
                 }
             }
         }
