@@ -1,10 +1,10 @@
 // NAV + HEADER queries (Desktop)
 
-@media screen and (min-width: 960px) {
+@media screen and (min-width: 1280px) {
     .nav-container {
 
         .nav-wrapper {
-            padding: 0 100px;
+            padding: 0 150px;
             .hamb-btn {
                 display: none;
             }
@@ -25,22 +25,24 @@
     }
 
     .header-container {
-        // display: flex;
-        // justify-content: center;
+        height: 100vh;
+
         .header-wrapper {
+            height: 100%;
             display: flex;
             flex-direction: row-reverse;
             justify-content: center;
             align-items: center;
-            padding:  0 100px;
+            padding:  0 150px;
 
-            img {
+            .header-hero {
                 max-width: 700px;
                 margin: 0;
+                margin-right: -40px;
             }
 
             .header-copy {
-                width: 50%;
+                width: 100%;
 
                 &_rated {
                     display: flex;
@@ -58,4 +60,30 @@
         }
     }
 }
+}
+
+
+// Why Fiber Section
+@media screen and (min-width: 1280px) {
+    .why-fiber-container {
+        padding: 3.5em 150px;
+        
+
+        .why-wrapper {
+
+            .why-items {
+                grid-template-columns: 1fr 1fr 1fr;
+                gap: 1em;
+                margin-top: 3em;
+    
+                &_item {
+                    max-width: 320px;
+    
+                    img {
+                        max-width: 35px;
+                    }
+                }
+            }
+        }
+    }
 }

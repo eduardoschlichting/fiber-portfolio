@@ -1,0 +1,25 @@
+.why-fiber-container {
+    padding: 3.5em 30px;
+    
+    
+    .why-wrapper {
+        display: flex;
+        flex-direction: column;
+
+        .why-items {
+            display: grid;
+            gap: 2em;
+            margin-top: 3em;
+
+            &_item {
+                display: flex;
+                flex-direction: column;
+                gap: .8em;
+
+                img {
+                    max-width: 35px;
+                }
+            }
+        }
+    }
+}

@@ -1,12 +1,15 @@
 .header-container {
     background-color: $beige;
+    height: 100%;
+    padding-bottom: 2em;
+
 
     .header-wrapper {
-        height: 100vh;
+        height: auto;
         display: flex;
         flex-direction: column;
 
-        img {
+       .header-hero {
             align-self: center;
             margin-top: 1em;
             width: 95%;
