@@ -1,0 +1,46 @@
+.diversify-container {
+  padding: 0 30px;
+  max-height: 400px;
+
+  .diversify-wrapper {
+    max-height: 400px;
+    .diversify-content {
+        
+      padding: 0 30px;
+      padding-top: 30px;
+      background-color: $purple;
+      border-radius: 10px;
+      display: flex;
+      flex-direction: column;
+
+      color: $white;
+
+      p {
+        color: $white;
+      }
+
+      &_copy {
+          display: flex;
+          flex-direction: column;
+          gap: 1em;
+          
+          button {
+            color: $purple;
+            background-color: $white;
+          }
+      }
+
+      &_img {
+          margin-bottom: -2px;
+
+          img {
+            margin-top: 2em;
+            width: 100%;
+            
+          }
+      }
+    }
+
+
+  }
+}
