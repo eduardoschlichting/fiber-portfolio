@@ -1,0 +1,59 @@
+.header-container {
+    background-color: $beige;
+
+    .header-wrapper {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+
+        img {
+            align-self: center;
+            margin-top: 1em;
+            width: 95%;
+        }
+
+        .header-copy {
+            display: flex;
+            flex-direction: column;
+            gap: .8em;
+            width: 85%;
+            margin: 0 auto;
+
+            &_rated {
+                display: none;
+                gap: 1em;
+
+                .stars {
+                    display: flex;
+                    gap: .3em;
+                    width: 100px;
+                }
+
+            }
+
+            &_btns {
+                display: flex;
+                gap: .8em;
+                flex-direction: column;
+                
+                a { align-self: center;}
+            }
+           
+            &_check-items {
+                display: flex;
+                flex-direction: column;
+                gap: .8em;
+                margin-top: .8em;
+    
+                .check-item {
+                    display: flex;
+    
+                    svg {
+                        padding-right: .5em;
+                    }
+                }
+            }
+        }
+    }
+    
+}

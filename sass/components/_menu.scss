@@ -1,0 +1,27 @@
+.nav-container {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+
+    .nav-wrapper {
+        height: 10vh;
+        padding: 0 30px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .logo-nav {
+            font-weight: 600;
+            font-size: 1.2em;
+        }
+
+        .navdesk {
+            display: none;
+        }
+    }
+    
+   
+
+    
+}

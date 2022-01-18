@@ -1,0 +1,49 @@
+// Colors
+$beige: #FBF8F3;
+$purple: #4D13D1;
+$black: #000000;
+$lightblack: #4F4F4F;
+$white: #FFFFFF;
+
+// Typography
+
+h1 {
+    font-size: 2em;
+    font-weight: 600;
+    line-height: 1.2em;
+}
+
+h2 {
+    font-size: 2em;
+    font-weight: 600;
+    line-height: 1.2em;
+}
+
+h3 {
+    font-size: 1.2em;
+    font-weight: 400;
+    line-height: 1.2em;
+}
+
+p {
+    font-size: .95em;
+    font-weight: 400;
+    line-height: 1.4em;
+    color: $lightblack;
+}
+
+// typography Desktop
+@media screen and (min-width: 960px) {
+    h1 {
+        font-size: 3em;
+    }
+    
+    h2 {
+        font-size: 2em;
+    }
+    p {
+        font-size: 1em;
+    }
+}
+
+
