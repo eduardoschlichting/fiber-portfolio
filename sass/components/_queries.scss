@@ -108,9 +108,20 @@
                 }
 
                 &_img {
-                    max-width: 600px;
+                    max-width: 50%;
                 }
             }
+        }
+    }
+}
+
+// Testmonials
+
+@media screen and (min-width: 1280px) {
+    .testmonials-container {
+        padding: 0 150px;
+        .testmonials-wrapper {
+            grid-template-columns: 1fr 1fr 1fr;
         }
     }
 }
