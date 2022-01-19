@@ -1,0 +1,17 @@
+footer {
+    padding: 3.5em 30px;
+    background-color: $beige;
+
+    .footer-wrapper {
+        display: flex;
+        flex-direction: column;
+
+        h3 { font-weight: bold; color: $black; }
+
+        p { padding-bottom: 1em;}
+
+        ul {
+            li { padding-bottom: 1em;}
+        }
+    }
+}
