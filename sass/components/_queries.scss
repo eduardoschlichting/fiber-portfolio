@@ -125,3 +125,20 @@
         }
     }
 }
+
+// Footer
+
+@media screen and (min-width: 700px) {
+    footer {
+        padding: 3.5em 150px;
+        
+        .footer-wrapper {
+            flex-direction: row;
+            justify-content: space-between;
+
+            gap: 3.5em;
+
+            .footer-copy { max-width: 350px;}
+        }
+    }
+}
